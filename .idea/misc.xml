@@ -5,11 +5,14 @@
       <map>
         <entry key="..\:/Users/Kapil/AndroidStudioProjects/YoutubeStats/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/Kapil/AndroidStudioProjects/YoutubeStats/app/src/main/res/layout/channel_name_item_list.xml" value="0.25" />
+        <entry key="..\:/Users/Kapil/AndroidStudioProjects/YoutubeStats/app/src/main/res/layout/custom_dialog.xml" value="0.20364583333333333" />
         <entry key="..\:/Users/Kapil/AndroidStudioProjects/YoutubeStats/app/src/main/res/layout/stats_view.xml" value="0.33" />
+        <entry key="..\:/Users/Kapil/AndroidStudioProjects/YoutubeStats/app/src/main/res/menu/main_menu.xml" value="0.20364583333333333" />
+        <entry key="..\:/Users/Kapil/AndroidStudioProjects/YoutubeStats/app/src/main/res/xml/searchbox.xml" value="0.1" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_X" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_15" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

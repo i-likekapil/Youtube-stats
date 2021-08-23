@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Youtube Stats</string>
+    <string name="enter_channel_name">Enter Channel Name</string>
+    <string name="search_hint">Enter Channel Name</string>
 </resources>

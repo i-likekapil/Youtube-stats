@@ -64,7 +64,12 @@ public class ChannelNameSearchAdapter extends RecyclerView.Adapter<ChannelNameSe
     public void onBindViewHolder(@NonNull ChannelNameAdapterViewHolder holder, int position) {
         String channelNameId = channelMap.get(position).getChannel_name();
         holder.tv_channel_name.setText(channelNameId);
-        Glide.with(context).load(channelMap.get(position).getThumbnail()).into(holder.iv_thumbnail);
+
+        String thumbnail = channelMap.get(position).getThumbnail();
+        if(thumbnail != null)
+            Glide.with(context).load(thumbnail).into(holder.iv_thumbnail);
+        else
+            Glide.with(context).load(R.drawable.no_image).into(holder.iv_thumbnail);
 
 
     }
